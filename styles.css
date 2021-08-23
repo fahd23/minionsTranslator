@@ -1,0 +1,79 @@
+:root {
+    --black: #222831;
+    --primary-color: #00ADB5;
+}
+
+body {
+    font-family: cursive;
+    margin: 0;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+nav {
+    background-color: #222831;
+    color: #00ADB5;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar h1 {
+    font-size: 2rem;
+}
+
+#txtinput {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+}
+
+#btn {
+    background-color: var(--black);
+    color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    font-family: cursive;
+    padding: 1rem 2rem;
+    font-size: large;
+}
+
+#outputmsg {
+    margin-top: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    margin-bottom: 2rem;
+}
+
+footer {
+    color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--black);
+    text-align: center;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+    footer p {
+        max-width: 400px;
+        margin: auto;
+    }
+
+}
