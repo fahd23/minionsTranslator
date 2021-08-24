@@ -30,6 +30,9 @@ nav {
     display: block;
     width: 100%;
     min-height: 20vh;
+    max-width:130vh;
+    min-width:60vh;
+    max-height: 214px;
     margin-top: 2rem;
     font-size: large;
 }
