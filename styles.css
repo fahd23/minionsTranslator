@@ -15,8 +15,8 @@ main {
 }
 
 nav {
-    background-color:var(--primary);
-    color:var(--secondary);
+    background-color: var(--primary);
+    color: var(--secondary);
     padding: 1rem;
     text-align: center;
 }
@@ -45,7 +45,7 @@ nav {
 }
 
 #outputmsg {
-    padding:1rem;
+    padding: 1rem;
     margin-top: 1rem;
     box-sizing: border-box;
     width: 100%;
@@ -70,9 +70,9 @@ footer p {
     max-width: 600px;
     margin: auto;
 }
-footer a{
+
+footer a {
     color: var(--secondary);
-    margin:1rem;
+    margin: 1rem;
     text-decoration: none;
 }
-
