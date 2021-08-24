@@ -1,6 +1,6 @@
 :root {
-    --dark: #14274E;
-    --primary-color: #F1F6F9;
+    --primary: #FFD460;
+    --secondary: #393E46;
 }
 
 body {
@@ -15,8 +15,8 @@ main {
 }
 
 nav {
-    background-color:var(--dark);
-    color:var(--primary-color);
+    background-color:var(--primary);
+    color:var(--secondary);
     padding: 1rem;
     text-align: center;
 }
@@ -35,8 +35,8 @@ nav {
 }
 
 #btn {
-    background-color: var(--dark);
-    color: var(--primary-color);
+    background-color: var(--primary);
+    color: var(--secondary);
     border: none;
     margin: 1rem 0rem;
     font-family: cursive;
@@ -45,23 +45,24 @@ nav {
 }
 
 #outputmsg {
+    padding:1rem;
     margin-top: 1rem;
     box-sizing: border-box;
     width: 100%;
     min-height: 10vh;
     max-height: 20vh;
     overflow: scroll;
-    border: 1px solid var(--dark);
-    margin-bottom: 2rem;
+    border: 1px solid var(--secondary);
+    margin-bottom: 1rem;
 }
 
 footer {
-    color: var(--primary-color);
+    color: var(--secondary);
     position: fixed;
     bottom: 0;
     width: 100%;
     padding: 1rem;
-    background-color: var(--dark);
+    background-color: var(--primary);
     text-align: center;
 }
 
@@ -70,9 +71,9 @@ footer p {
     margin: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     footer p {
-        max-width: 400px;
+        max-width: 300px;
         margin: auto;
     }
 
