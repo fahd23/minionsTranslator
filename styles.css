@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 :root {
     --primary: #ffd460;
     --secondary: #393E46;
 }
 
 body {
-    font-family: cursive;
     margin: 0;
+    font-family: Sriracha;
 }
 
 main {
