@@ -2,7 +2,7 @@ var txtinput = document.querySelector("#txtinput");
 var txtoutput = document.querySelector("#txtoutput");
 var btnTranslate = document.querySelector("#btn");
 
-const apiUrl = "https://api.funtranslations.com/translate/jive.json";
+const apiUrl = "https://api.funtranslations.com/translate/minion.json";
 
 btnTranslate.addEventListener("click", clickHandler);
 
